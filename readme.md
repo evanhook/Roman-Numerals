@@ -1,40 +1,56 @@
-# _{Application Name}_
+# _Roman Numerals_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Program that converts Arabic to Roman Numerals , June, 2020_
 
-#### By _**{List of contributors}**_
+#### By _**Matthew Craig & Lizzie Van Hook**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This will convert user inputted numbers into roman numerals and display the roman numerals._
 
 ## Specs
+The program will ignore non-numeric values
+* Input: $p
+* Output: Error
+
+The program will take numbers greater than 0 and less than 3,999 to return a Roman Numeral
+* Input: 1
+* Output: I
+
+If the number can be converted into a character repeated more than three times, the program will use subtraction to produce the roman numeral.
+* Input: 4
+* Output: IV
+
+The program will not place Roman numerals equal to 1, 10, 100, or 1000 together.
+* Input: 99
+* Output: XCIX
 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* Clone repository using this link: https://github.com/mgcraig78/Roman-Numerals
+* Go to the terminal and navigate to your desktop, using the command $ cd desktop
+* Navigate to the project folder, using the command $cd language-suggester
+* Open in a text editor (Atom, Visual Studio Code, or similar). For Visual  Studio Code, use the command $ code .
+* To preview this project in your browser, use the terminal command $ open index.html
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_No known bugs_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Matthew Craig: mgcraig78@gmail.com
+Lizzie Van Hook: evanhook360@gmail.com
 
 ## Technologies Used
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* HTML
+* CSS
+* Javascript
+* JQuery
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT license*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Lizzie Van Hook & Matthew Craig_**

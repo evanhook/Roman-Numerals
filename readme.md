@@ -31,7 +31,7 @@ The program will not place Roman numerals equal to 1, 10, 100, or 1000 together.
 * Clone repository using this link: https://github.com/mgcraig78/Roman-Numerals
 * Go to the terminal and navigate to your desktop, using the command $ cd desktop
 * Navigate to the project folder, using the command $cd language-suggester
-* Open in a text editor (Atom, Visual Studio Code, or similar). For Visual  Studio Code, use the command $ code .
+* Open in a text editor (Atom, Visual Studio Code, or similar). For Visual Studio Code, use the command $ code .
 * To preview this project in your browser, use the terminal command $ open index.html
 
 ## Known Bugs
